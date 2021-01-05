@@ -1,0 +1,437 @@
+:root{
+    --scale:1;
+
+}
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding:10px;
+    font-size:calc(1.3rem * var(--scale)) ;
+    font-family: sans-serif;
+}
+
+.section01 {  
+    background-image:linear-gradient(to right, rgba(0, 0, 0,.5), rgba(0, 0, 0,.8)
+    ), url(../images/background-images/fredrick-filix-U9_pRASawlc-unsplash.JPG);
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;   
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: aliceblue;
+}
+span{
+    color: yellow;
+}
+ .post{
+    margin: 0 auto;
+    /* width: 50%; */
+    color: white;
+    margin-top: 120px;
+    font-weight: 100;
+    text-align: center;
+    /* line-height: 4em; */
+
+}
+.post h1{
+    font-size: 5rem;
+}
+.post p{
+    margin-top: 20px;
+}
+.button-cont{
+    text-align: center;
+    margin-top: 25px;
+    
+
+}
+button{
+    margin: 0 auto;
+    padding: 10px;
+   
+}
+.b1{
+    border: 2px solid red;
+    background-color: red;
+    transition: transform 300ms ease;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+.b1:hover{
+    background-color:black;
+    transform: translateY(-5px);
+}
+.b2{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: transform 300ms ease;
+    color: white;
+    margin-left: 10px;
+}
+.b2:hover{
+    background-color: black;
+    border: 2px solid black;
+    transform: translateY(-5px);
+
+}
+.track{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+   
+}
+
+/* welcom section2 */
+.section2{
+    margin: 0 auto;
+    padding:100px 0;
+}
+.sec2{
+    margin: 0 auto;
+    width: 50%;
+}
+.section2 p{
+    margin-top: 2em;
+    line-height: 1.4em;
+}
+.sec2 h1{
+    text-align: center;
+}
+.butt{
+    text-align: center;
+    margin-top:20px ;
+    
+}
+.btu{
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 200ms ease;
+    
+
+}
+.btu:hover{
+    background-color: red;
+    transform: translateY(-5px);
+    color: white;
+}
+
+/* SERVICES SECTION */
+.section3{
+    margin: 0 auto;
+    padding:80px 0;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.section3 h2{
+    text-align: center;
+}
+.section3 p{
+font-size: 1.1rem;
+line-height: 2em;
+}
+.sec3{
+    margin: 0 auto;
+    width: 70%;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.split2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.side1{
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 25px;
+    padding: 20px;
+    margin-top: 25px;
+}
+.side2{
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 25px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+/* why you choose us section4 */
+
+
+.sec4{
+    display: flex;
+    
+
+}
+.sec4>*{
+    /* flex-basis: 100%; */
+    flex-basis: 50%;
+}
+.sec4-side1{
+    
+    /* height: 700px; */
+    background-image: url(../images/background-images/patrick-campanale-oCsQLKENz34-unsplash.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.sec4-side2{
+    padding: 150px 20px;
+    line-height: 1.8em;
+    background-color: rgb(234, 240, 240);
+}
+.sec4-side2 p{
+    margin-top: 15px;
+    
+}
+.whybtu{
+    background-color: white;
+    color: black;
+    transition: all 300ms ease;
+    border: 2px solid red ;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+.whybtu:hover{
+    transform: translateY(-5px);
+    color: white;
+    background-color: black;
+}
+
+/* CUSTOMERS SECTION5 */
+.section5{
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.head5{
+    margin: 0 auto;
+    text-align: center;
+}
+.displa{
+    width: 60%;
+    border: 3px solid black;
+    border-radius:  10px ;
+    box-shadow:-1rem 1rem 0rem rgb(206, 6, 6) ;
+    margin: 0 auto;
+    padding: 20px;
+}
+.circle{
+    width: 14rem;
+    border-radius: 100%;
+    height: 14rem;
+    margin: 40px auto;
+    background-image: url(../images/ali-morshedlou-WMD64tMfc4k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.name {
+    color:rgb(206, 6, 6) ;
+   text-align: center;
+   font-weight: bold;
+}
+.name p{
+    font-weight: 1000px;
+}
+.writeup{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 1.8rem;
+
+}
+.changearrow{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+
+}
+.arrow{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    margin: 10px auto;
+    transition: all 100ms ease;
+    box-shadow: 0rem 1rem 1rem  rgb(54, 53, 53);
+    text-align: center;
+}
+.arrow:hover{
+    transform: translateY(-3px);
+    box-shadow: 0rem 1rem 1rem  rgb(70, 69, 69);
+}
+.arrow:active{
+    transform: translate(0);
+    box-shadow: 0rem 1rem 1rem  rgb(255, 255, 255);
+}
+.fas{
+    margin-top: 14px;
+    font-size: 3rem;
+    color: white;
+}
+
+/* TEAM-SECTION6 */
+.section6{
+    position: relative;
+    height: 200%;
+    background-image:linear-gradient(to right, rgba(238, 20, 20,.7), rgba(238, 31, 31,.7)), url(../images/background-images/fredrick-filix-U9_pRASawlc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+
+
+.sec6-head{
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: 20px auto ;
+    padding:40px 20px;
+    font-size: 1.4rem;
+}
+.sec6-split{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+.split01{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.split02{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.side6{
+    /* margin: 0 auto; */
+    width: 100%;
+    border: 2px solid white;
+    border-style:solid solid solid solid;
+    padding: 6rem;
+}
+.anoda{
+    border-style: solid solid solid none;
+}
+.anoda1{
+    border-style: solid none solid solid;
+}
+.side6 p{
+    color: white;
+    text-align: center;
+    
+} 
+
+/* FOOTER SECTION */
+footer{
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+.foot{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.bb:hover{
+    background-color: red;
+    border-color: red;
+
+}
+.bbb{
+    background-color: black;
+}
+
+@media (max-width: 900px){
+    .sec6-split{
+        flex-direction: column;
+        
+    }
+    .anoda01{
+        border-style:solid none solid solid ;
+    }
+    .anoda02{
+        border-style:solid solid solid none;
+    }
+    .side6{
+        padding: 3rem;
+    }
+    .changearrow{
+        width: 50%;
+       justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px){
+    :root{
+        --scale:0.8;
+    }
+    /* html{
+        font-size: 75%;
+    } */
+    nav h2{
+        font-size: 1rem;
+    }
+    nav p{
+        font-size: 1rem;
+    }
+    .post h1{
+        font-size: 2.6rem;
+    }
+    .button-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .b1{
+        width: 80%;
+    }
+    .b2{
+        margin: 17px auto;
+        width: 80%;
+    }
+    .sec2{
+        width: 80%;
+    }
+
+    .split{
+        flex-direction: column;
+    }
+    .split2{
+        flex-direction: column;
+    }
+    .sec4{
+        flex-direction: column;
+    }
+    .why-btu{
+        text-align: center;
+    }
+ p{
+     font-size: 1.2rem;
+ }
+ h1{
+     font-size: 1.2rem;
+ }
+
+}
